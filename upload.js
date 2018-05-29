@@ -2,7 +2,7 @@ const IncomingForm = require( 'formidable' ).IncomingForm
 
 module.exports = function upload( req, res ) {
     var form = new IncomingForm()
-    print( form )
+    console.log( form )
     form.on( 'file' , ( field, file ) => {
         console.log(file)
         console.log(field)
