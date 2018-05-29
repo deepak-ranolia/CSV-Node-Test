@@ -1,0 +1,19 @@
+{
+  "name": "csv",
+  "version": "1.0.0",
+  "description": "CSV upload configuration check",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "drwebdev.xyz",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cdk": "^6.1.0",
+    "@angular/flex-layout": "^5.0.0-beta.14",
+    "@angular/material": "^6.1.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "formidable": "^1.2.1"
+  }
+}
